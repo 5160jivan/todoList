@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 
-mongoose.connect("mongodb+srv://5160jivan:Liverpool@5160@cluster0-kkmug.mongodb.net/todoListDB", {useNewUrlParser: true, useUnifiedTopology : true});
+mongoose.connect("mongodb+srv://5160jivan:abdasdfd@5160@cluster0-kkmug.mongodb.net/todoListDB", {useNewUrlParser: true, useUnifiedTopology : true});
 
 const taskSchema = new mongoose.Schema({
     name : String
